@@ -1,0 +1,30 @@
+.ex1{
+    height:1100px;
+    border-right:1px solid #e1e1e1;
+    padding-top: 120px;
+}
+.ex1 img{
+    padding-bottom:20px;
+}
+.menu p{
+    /* padding: 3px 3px 4px 0; */
+    padding-top: 1px;
+    padding-bottom : 1px;
+}
+.menu a{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #919191;
+    font-size:13px;
+}
+.menu a:hover {
+  color: red;
+}
+
+.menu .select {
+    color:#000000 !important;
+    font-weight:bold;
+    border-top:1px solid #e1e1e1;
+    border-bottom:1px solid #e1e1e1;
+    padding-top:7px;
+    padding-bottom:7px;
+}

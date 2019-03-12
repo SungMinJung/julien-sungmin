@@ -1,0 +1,10 @@
+<?php
+
+use Faker\Generator as Faker;
+
+$factory->define(App\Gallery::class, function (Faker $faker) {
+    return [
+        'img' => $faker->imageUrl,
+       
+    ];
+});
